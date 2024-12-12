@@ -58,7 +58,7 @@ h1{font-size:2.67rem;}
 h2{font-size:2.00rem;}
 h3{font-size:1.67rem;}
 h4{font-size:1.33rem;}
-p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
+p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:justify;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
 ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
 ul li{list-style:disc; margin:0px auto 0px auto; padding:0px; text-align:left;}
@@ -89,13 +89,14 @@ th,td{
 
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto',sans-serif;}
-.top-left {font-size:4.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 375px; position: absolute; padding: 36px 0 0 0; top: 0px; line-height: 1.0em; background: rgba(250, 250, 250, 0.05);}
-.bottom-right {font-size:1.95em; color: #fafafa; line-height: 1.00em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
+.top-left {font-size:4.00em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 375px; position: absolute; padding: 5px 0 0 0; top: 0px; line-height: 1.2em; background: rgba(250, 250, 250, 0.05);}
+.bottom-right {font-size:1.95em; color: #fafafa; line-height: 1.00em; width: auto; height: 100px; padding: 0px 10px 0px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
+.bottom-right_2 {font-size:1.5em; color: #fafafa; line-height: 1.00em; width: auto; height: 60px; padding: 0px 10px 0px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
 /* Conference Title Logo */
-.title1{color: #003B73; text-shadow: 1px 1px 3px #c0c0c0;} 
-.title2{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;}
-.year{color: #505050; font-size:0.67em; font-weight: lighter;}
+.title1{color:  #fafafa; text-shadow: 1px 1px 3px #c0c0c0; font-size:0.80em;} 
+.title2{color:  #fafafa; text-shadow: 1px 1px 3px #c0c0c0; font-size:1.00em;}
+.year{color: #505050; font-size:0.50em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width:800px;}
